@@ -1,0 +1,4 @@
+name: RPGNPCS
+version: '${project.version}'
+main: me.italicseal.rpgnpcs.RPGNPCS
+api-version: '1.20'
