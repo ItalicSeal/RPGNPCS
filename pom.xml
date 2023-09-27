@@ -42,6 +42,9 @@
                         </configuration>
                     </execution>
                 </executions>
+                <configuration>
+                    <outputDirectory>E:/Spigot1.20.2/plugins</outputDirectory>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>net.md-5</groupId>

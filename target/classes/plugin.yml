@@ -2,3 +2,6 @@ name: RPGNPCS
 version: '1.0-SNAPSHOT'
 main: me.italicseal.rpgnpcs.RPGNPCS
 api-version: '1.20'
+commands:
+  RPGNPC:
+    Description: "Interact with the RPGNPCS plugin. "

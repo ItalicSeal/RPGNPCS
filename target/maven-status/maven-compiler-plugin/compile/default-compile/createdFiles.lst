@@ -1,1 +1,4 @@
 me\italicseal\rpgnpcs\RPGNPCS.class
+me\italicseal\rpgnpcs\commands\CommandManager.class
+me\italicseal\rpgnpcs\commands\subcommands\NPCCommand.class
+me\italicseal\rpgnpcs\commands\SubCommand.class
