@@ -3,7 +3,7 @@ package me.italicseal.rpgnpcs.commands.subcommands;
 import me.italicseal.rpgnpcs.commands.SubCommand;
 import org.bukkit.entity.Player;
 
-public class NPCCommand extends SubCommand {
+public class createNpcCommand extends SubCommand {
 
     @Override
     public String getName() {
@@ -25,7 +25,7 @@ public class NPCCommand extends SubCommand {
         if (args.length >= 1){
             player.sendMessage("Creating npc...");
         }else{
-            player.sendMessage("ussage: " + getSyntax());
+            player.sendMessage("Usage: " + getSyntax());
         }
 
     }

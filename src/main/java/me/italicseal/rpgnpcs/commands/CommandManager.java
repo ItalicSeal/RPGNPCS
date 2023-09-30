@@ -1,6 +1,7 @@
 package me.italicseal.rpgnpcs.commands;
 
-import me.italicseal.rpgnpcs.commands.subcommands.NPCCommand;
+import me.italicseal.rpgnpcs.commands.subcommands.createNpcCommand;
+import me.italicseal.rpgnpcs.commands.subcommands.getVesionCommand;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -12,7 +13,8 @@ public class CommandManager implements CommandExecutor {
 
     private ArrayList<SubCommand> subCommands = new ArrayList<>();
     public CommandManager(){
-        subCommands.add(new NPCCommand());
+        subCommands.add(new createNpcCommand());
+        subCommands.add(new getVesionCommand());
     }
 
     @Override

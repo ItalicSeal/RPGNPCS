@@ -1,4 +1,6 @@
-me\italicseal\rpgnpcs\RPGNPCS.class
-me\italicseal\rpgnpcs\commands\CommandManager.class
-me\italicseal\rpgnpcs\commands\subcommands\NPCCommand.class
+me\italicseal\rpgnpcs\commands\subcommands\getVesionCommand.class
+me\italicseal\rpgnpcs\commands\subcommands\createNpcCommand.class
 me\italicseal\rpgnpcs\commands\SubCommand.class
+me\italicseal\rpgnpcs\RPGNPCS.class
+me\italicseal\rpgnpcs\AbstractionLoader.class
+me\italicseal\rpgnpcs\commands\CommandManager.class
